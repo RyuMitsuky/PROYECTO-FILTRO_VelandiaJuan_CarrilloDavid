@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ff6f2c;
 }
 
 header {
@@ -15,6 +16,7 @@ header {
   justify-content: space-between;
   padding: 0.5rem 1rem;
   position: relative;
+  background-color: white;
 }
 
 .left,
@@ -60,5 +62,49 @@ button img {
   background-color: orange;
   min-height: 4000rm;
 
+}
+
+.centroAyuda {
+
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+}
+
+.menuPreguntas{
+
+  
+  display: grid;
+  grid-template-columns: repeat(9,1fr);
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem 1rem;
+  width: 80%;
+  margin-left: 10rem;
 
 }
+
+
+.tablaDeContenido{
+
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  border-radius: 1rem;
+  text-align: left;
+  padding: 10rem 1rem;
+  width: 40%;
+  margin-left: 33.5rem;
+
+
+
+}
+
+.tablaDeContenido {
+
+  background-color: white;
+  border-radius: 1rem;
+  border-color: black;
+  border: 1px solid black;
+  
+}
+
