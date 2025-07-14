@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.menu button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  color: black;
+  cursor: pointer;
+}
+
+.menu button img {
+  width: 20px;
+  height: 20px;
+}
+
+.logoHeader {
+  height: 30px;
+}
+
+.setting img,
+.bell img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.userIMG img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.menu button:hover {
+  text-decoration: underline;
+}
+
+/* Responsive ajustes */
+@media (max-width: 768px) {
+  .menu {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .menu button {
+    font-size: 0.8rem;
+  }
+
+  .menu button img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .setting img,
+  .bell img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .userIMG img {
+    width: 35px;
+    height: 35px;
+  }
+}
