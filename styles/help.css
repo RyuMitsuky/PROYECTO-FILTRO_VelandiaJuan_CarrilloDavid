@@ -1,13 +1,11 @@
+/** modelo del header general **/
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container{
-    opacity: 0;
-}
-
 header {
+  position: relative;
   border-bottom: 1px solid #ddd;
 }
 
@@ -16,10 +14,10 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  position: relative;
 }
 
 .left,
-.center,
 .right {
   display: flex;
   align-items: center;
@@ -56,13 +54,3 @@ button img {
   height: 35px;
   border-radius: 50%;
 }
-
-.reportConfirm {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 999;
-  max-width: 200px;
-}
-
