@@ -57,30 +57,13 @@ button img {
   border-radius: 50%;
 }
 
-.fondoNaranja {
 
-  background-color: orange;
-  min-height: 4000rm;
-
-}
 
 .centroAyuda {
 
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
-}
-
-.menuPreguntas{
-
-  
-  display: grid;
-  grid-template-columns: repeat(9,1fr);
-  border-radius: 1rem;
-  text-align: center;
-  padding: 1rem 1rem;
-  width: 80%;
-  margin-left: 10rem;
 
 }
 
@@ -88,23 +71,20 @@ button img {
 .tablaDeContenido{
 
   display: grid;
-  grid-template-columns: repeat(1,1fr);
-  border-radius: 1rem;
-  text-align: left;
-  padding: 10rem 1rem;
+  grid-template-rows: (7, 1fr );
+  padding: 3rem 3rem;
   width: 40%;
   margin-left: 33.5rem;
-
-
-
-}
-
-.tablaDeContenido {
+  gap: 2rem ;
 
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 3rem;
   border-color: black;
   border: 1px solid black;
+ 
+  text-align: center;
   
+  
+
 }
 

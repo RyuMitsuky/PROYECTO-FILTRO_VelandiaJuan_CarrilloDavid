@@ -94,6 +94,8 @@ form input {
   cursor: pointer;
 }
 
-#problemDescrip{
+.problemDescrip {
+
+
     height: 10rem;
 }
