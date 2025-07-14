@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    background-image: url('../Images/fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.logoMedia {
+    width: 70px;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1rem 0;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+}
