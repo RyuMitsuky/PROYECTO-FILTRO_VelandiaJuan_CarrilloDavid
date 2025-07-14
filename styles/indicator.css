@@ -66,7 +66,7 @@ text-align: center;
 }
 
 
-.contentTable,.headerTable{
+.contentTable,.headerTable,.hamburg {
   display: grid;
   grid-template-columns: repeat(9,1fr);
   border-radius: 1rem;
@@ -84,8 +84,21 @@ text-align: center;
   background-color: (234, 228, 228);
   border-radius: 1rem;
   border-color: black;
-  border: 2px solid black;
+  border: 1px solid black;
   
+}
+
+
+.hamburg{
+
+  background-image: url(../Images/Repeat\ Grid\ 4.svg); 
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin-left: 100rem;
+
 
 }
 
