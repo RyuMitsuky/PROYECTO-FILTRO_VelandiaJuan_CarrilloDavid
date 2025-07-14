@@ -56,19 +56,33 @@ button img {
 
 .panelindicador{
 
-
 text-align: center;
 
-
-
 }
-
-
 
 .subtitulopanel{
 
   text-align: center;
 }
 
+
+.contentTable,.headerTable{
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  border-radius: 1rem;
+  align-items: left ;
+  padding: 1rem 1rem;
+  
+
+  
+ 
+}
+
+
+.contentTable{ 
+  background-color: rgb(234, 228, 228);
+  
+
+}
 
 
