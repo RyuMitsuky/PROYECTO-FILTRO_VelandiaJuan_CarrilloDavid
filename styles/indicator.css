@@ -68,19 +68,23 @@ text-align: center;
 
 .contentTable,.headerTable{
   display: grid;
-  grid-template-columns: repeat(10,1fr);
+  grid-template-columns: repeat(9,1fr);
   border-radius: 1rem;
-  align-items: left ;
+  text-align: center;
   padding: 1rem 1rem;
-  
-
-  
+  width: 90%;
+  margin-left: 6rem;
  
+
+
 }
 
 
 .contentTable{ 
-  background-color: rgb(234, 228, 228);
+  background-color: (234, 228, 228);
+  border-radius: 1rem;
+  border-color: black;
+  border: 2px solid black;
   
 
 }
