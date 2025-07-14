@@ -1,4 +1,8 @@
 /** modelo del header general **/
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 header {
   position: relative;
@@ -49,4 +53,47 @@ button img {
   width: 35px;
   height: 35px;
   border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+form {
+  background-color: #f2f2f2; 
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+form input {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.sendButton {
+  padding: 0.8rem 2rem;
+  margin: auto;
+  background-color: #ff6b1f;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#problemDescrip{
+    height: 10rem;
 }

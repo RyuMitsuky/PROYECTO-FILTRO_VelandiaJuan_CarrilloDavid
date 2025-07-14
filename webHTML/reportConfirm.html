@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../styles/reports.css">
+    <link rel="stylesheet" href="../styles/indicator.css">
 </head>
 <body>
     <header>
         <div class="menu">
             <div class="left">
-                <a href="../webHTML/indicators.html"><button class="add">⬅ Volver</button></a>
-            
+                <a href="../webHTML/add.html"><button class="add"><img src="../Images/Añadir.svg" alt="">Añadir</button></a>
+            <button class="reload"><img src="../Images/reload.svg" alt="">Refrescar</button>
+            <button class="delete"><img src="../Images/delete.svg" alt="">Eliminar</button>
             </div>
             
             <div class="center">
@@ -19,6 +20,7 @@
             </div>
             
             <div class="right">
+                <button class="report"><img src="../Images/report.svg" alt="">Reportar</button>
                 <button class="help"><img src="../Images/help.svg" alt="">Ayuda</button>
                 <button class="setting"><img src="../Images/settings.svg" alt=""></button>
                 <button class="bell"><img src="../Images/bell.svg" alt=""></button>
@@ -26,18 +28,5 @@
             </div>
         </div>
     </header>
-
-    <div>
-        <h1>Reporte de errores</h1>
-        <form action="../webHTML/reportConfirm">
-            <label for="descripcion">Tómese un momento para compartir sus opiniones completando el siguiente formulario, su opinión es esencial para ayudarnos a mejorar su experiencia.</label>
-            <input type="text" id="email" name="email" placeholder="Correo electronico:"></input>
-            <input type="text" id="title" name="title" placeholder="Titulo del problema"></input>
-            <input type="text" id="problemDescrip" name="problemDescrip" placeholder="Describa su problema..."></input>
-            <button class="sendButton" type="submit">Enviar</button>
-        </form>
-        
-    </div>
-
 </body>
 </html>

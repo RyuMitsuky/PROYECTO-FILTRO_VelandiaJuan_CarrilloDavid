@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.left,
+.center,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.logoHeader {
+  height: 30px;
+}
+
+.userIMG img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
