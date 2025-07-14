@@ -19,7 +19,7 @@ header {
 .right {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 7rem;
 }
 
 .center {
@@ -66,7 +66,7 @@ text-align: center;
 }
 
 
-.contentTable,.headerTable,.hamburg {
+.contentTable,.headerTable{
   display: grid;
   grid-template-columns: repeat(9,1fr);
   border-radius: 1rem;
@@ -75,13 +75,11 @@ text-align: center;
   width: 90%;
   margin-left: 6rem;
  
-
-
 }
 
 
 .contentTable{ 
-  background-color: (234, 228, 228);
+  background-color: white;
   border-radius: 1rem;
   border-color: black;
   border: 1px solid black;
@@ -89,17 +87,25 @@ text-align: center;
 }
 
 
-.hamburg{
+.cuadroNaranja {
 
-  background-image: url(../Images/Repeat\ Grid\ 4.svg); 
-  position: absolute;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
+  margin-left: 55rem;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  border-radius: 1rem;
   text-align: center;
-  margin-left: 100rem;
+  padding: 1rem 1rem;
+  width: 10%;
+  margin-left: 51rem;
+  background-color: #ff6f2c;
+  border-color: black;
+  border: 1px solid black;
+  color: white;
+
+  
 
 
 }
+
 
 
