@@ -1,3 +1,10 @@
+@media only screen 
+  and (device-width: 430px)
+  and (device-height: 932px)
+  and (orientation: portrait) {}
+  
+
+
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,12 +76,14 @@ button img {
   padding: 1rem 1rem;
   width: 80%;
   margin-left: 10rem;
+  
 }
 
 .contentTable {
   background-color: white;
   border-radius: 1rem;
   border: 1px solid black;
+  box-shadow: 0px 2px 10px black;
 }
 
 .areaWithImage {
@@ -101,5 +110,4 @@ button img {
   border: 1px solid black;
   color: white;
 }
-
 
