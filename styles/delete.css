@@ -19,7 +19,7 @@ body {
   .right {
     display: flex;
     align-items: center;
-    gap: 7rem;
+    gap: 1rem;
   }
   
   .center {
